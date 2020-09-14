@@ -9,7 +9,7 @@ Step 1: Gather 100 ICMP packets using tcpdump
 
 Step 2: Run dump through PI prototype
 
-# ./main.py -g -p ./icmp.dump
+# python ./main.py -g -p ./icmp.dump
 
 Protocol Informatics Prototype (v0.01 beta)
 Written by Marshall Beddoe <mbeddoe@baselineresearch.net>
