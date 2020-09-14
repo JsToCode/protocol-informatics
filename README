@@ -2,11 +2,12 @@ A update version of The Protocol Informatics Framework
 
 Requirements:
 Python >= 2.3.4     http://www.python.org
-numpy Python        http://www.stsci.edu/resources/software_hardware/numarray
+Numpy Python        http://www.stsci.edu/resources/software_hardware/numarray
 Pyrex               http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/
 Pcapy               http://oss.coresecurity.com/projects/pcapy.html
 Pydot               http://dkbza.org/pydot.html
 Cython              https://cython.org/
+Graphviz            http://www.graphviz.org/
 
 Build Command:
 cython PI/align.pyx  
