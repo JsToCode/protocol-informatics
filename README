@@ -10,6 +10,8 @@ Cython              https://cython.org/
 Graphviz            http://www.graphviz.org/
 
 Build Command:
+git clone https://github.com/JsToCode/protocol-informatics.git
+cd protocol-informatics
 cython PI/align.pyx  
 export CFLAGS="-I /home/song/.local/lib/python2.7/site-packages/numpy/core/include $CFLAGS"
 python ./setup.py build
