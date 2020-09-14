@@ -2,12 +2,15 @@ A update version of The Protocol Informatics Framework
 
 Requirements:
 Python >= 2.3.4     http://www.python.org
-numpy Python    http://www.stsci.edu/resources/software_hardware/numarray
+numpy Python        http://www.stsci.edu/resources/software_hardware/numarray
 Pyrex               http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/
 Pcapy               http://oss.coresecurity.com/projects/pcapy.html
 Pydot               http://dkbza.org/pydot.html
+Cython              https://cython.org/
 
 Build Command:
+cython PI/align.pyx  
 export CFLAGS="-I /home/song/.local/lib/python2.7/site-packages/numpy/core/include $CFLAGS"
 python ./setup.py build
 cp  cp build/lib.linux-x86_64-2.7/PI/align.so PI/
+#Try Example for ICMP Protocol
